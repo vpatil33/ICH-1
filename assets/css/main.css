@@ -2802,7 +2802,7 @@ input, select, textarea {
 				background-color: rgba(36, 41, 67, 0.25);
 				content: '';
 				display: block;
-				height: 80%; /* before was 100% */
+				height: 100%; /* before was 100% */
 				left: 0;
 				position: absolute;
 				top: 0;
@@ -2858,9 +2858,9 @@ input, select, textarea {
 
 			.tiles article {
 				padding: 4em 3em 2em 3em ;
-				height: 20vh; /* 30vh originally */
+				height: 30vh; /* 30vh originally */
 				max-height: 30em;
-				min-height: 10em; /* 10em originally */
+				min-height: 20em; /* 20em originally */
 			}
 
 		}
@@ -2876,8 +2876,8 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.tiles article {
-				padding: 6em 3em 2em 3em ; /* original: 3em 1.5em 1em 1.5em */
-				height: 8em; /* before was 16 em */
+				padding: 3em 1.5em 1em 1.5em ; /* original: 3em 1.5em 1em 1.5em */
+				height: 16em; /* before was 16 em */
 				max-height: none;
 				min-height: 0;
 			}
@@ -2895,7 +2895,7 @@ input, select, textarea {
 			}
 
 				.tiles article {
-					height: 10em; /* before was 20 em */
+					height: 20em; /* before was 20 em */
 					width: 100% !important;
 				}
 
