@@ -62,6 +62,7 @@
 				<li><a href="competitions.html">Competitions</a></li>
 				<li><a href="archive.html">Problem Archive</a></li>
 				<li><a href="team.html">Team</a></li>
+				<li><a href="sponsors.html">Sponsors</a></li>
 				<!--<li><a href="generic.html">Generic</a></li>-->
 				<!--<li><a href="elements.html">Elements</a></li>-->
 			</ul>
@@ -221,23 +222,26 @@
 					<footer id="footer">
 						<div class="inner">
 							<section>
-								<h2>Get in touch</h2>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<input type="text" name="name" id="name" placeholder="Name" />
-										</div>
-										<div class="field half">
-											<input type="email" name="email" id="email" placeholder="Email" />
-										</div>
-										<div class="field">
-											<textarea name="message" id="message" placeholder="Message"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send" class="primary" /></li>
-									</ul>
-								</form>
+								<h3>Contact us</h3>
+								<form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+									 <label for="Name" class="fcf-label">Your name</label>
+									 <div class="fcf-input-group">
+									     <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+									 </div>
+								    <div class="fcf-form-group">
+									 <label for="Email" class="fcf-label">Your email address</label>
+									 <div class="fcf-input-group">
+									     <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+									 </div>
+								    <div class="fcf-form-group">
+									 <label for="Message" class="fcf-label">Your message</label>
+									 <div class="fcf-input-group">
+									     <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+									 </div>
+								    </div>
+								    <div class="fcf-form-group">
+									 <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+								    </div>
 							</section>
 							<section>
 								<h2>Follow</h2>
