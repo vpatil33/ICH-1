@@ -3373,3 +3373,31 @@ input, select, textarea {
 			}
 
 		}
+	.about-team-image{
+		/*display: inline-block;*/
+		float: left;
+		width: 200px;
+		height: 200px;
+		border-radius: 50%;
+	}
+	.about-team{
+		margin: auto;
+		
+	}
+	.about-team-info-header{
+		overflow:hidden;
+		margin: auto;
+		width: 70%;
+		font-weight: bold;
+	}
+	.about-team-info-title{
+		overflow:hidden;
+		margin: auto;
+		width: 70%;
+		font-style: italic;
+	}
+	.about-team-text{
+		overflow:hidden;
+		margin: auto;
+		width: 70%;
+	}
