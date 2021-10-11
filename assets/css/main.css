@@ -3382,8 +3382,11 @@ input, select, textarea {
 	}
 	.about-team{
 		margin: auto;
-		
 	}
+
+    .about-team-info{
+        height: 190px;
+    }
 	.about-team-info-header{
 		overflow:hidden;
 		margin: auto;
@@ -3399,5 +3402,6 @@ input, select, textarea {
 	.about-team-text{
 		overflow:hidden;
 		margin: auto;
+        margin-bottom: 10px;
 		width: 70%;
 	}
